@@ -1,0 +1,348 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+#header{
+	border-bottom: 1px solid #d8d8;
+}
+#main-menu li {
+	float: left;
+}
+#main-menu li a{
+	display: block;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 16px;
+	color: #000;
+	line-height: 21px;
+	padding:20px 20px 19px 20px;
+}
+#logo{
+	display: block;
+	padding: 15px 0px 14px 0px;
+	margin-right: 47px;
+}
+#logo img {
+	display: block;
+}
+#search{
+	display: block;
+	padding: 13px 0px 12px 0px;
+	position: relative;
+}
+#search input{
+	width: 180px;
+	height: 35px;
+	border-radius: 5px;
+	border-color: #d8d8;
+	padding: 0px 15px;
+}
+#submit{
+	position: absolute;
+	left: 152px;
+	margin: 7px 0px;
+	border: none;
+	background-color: #fff;
+}
+#main-menu li:hover a{
+	background-color: #008643;
+	color: #fff;
+	transition: 0.25 all;
+}
+#link{
+	background-color: #f3f3f3;
+}
+#link a{
+	display: inline-block;
+	font-size: 11px; 
+	color: #333;
+	font-weight: 500;
+	padding: 10px 0px
+}
+#link a i {
+	font-size: 7px ;
+	padding: 0px 10px;
+}
+/*style content*/
+#content{
+	padding: 30px 0px;
+}
+#main-content{
+	padding-right: 36px;
+	border-right: 1px solid #f5f5f5;
+	width: 833px;
+}
+#main-content a:hover{
+	color: #008643;
+	transition: 0.25 all;
+}
+#main-content .post-cover{
+	width: 100%;
+	padding: 0px;
+
+}
+#main-content .post-thumb{
+	margin-right: 30px;
+}
+#main-content .list-post-cover .post-thumb {
+    margin-right: 20px;
+}
+
+#main-content .list-post-feature {
+	width: 405px;
+	padding: 0px 15px 0px 0px;
+}
+#main-content .list-post-cover {
+	padding: 0px 0px;
+	width: 100%;
+}
+.list-lasted{
+	padding-bottom: 40px; 
+	border-bottom: 1px solid #01a050;
+}
+#list-category {
+	padding:40px 0px;
+}
+#list-category .witget-feature .post-thumb {
+	margin-right: 20px;
+}
+#list-category .witget-feature{
+	margin-bottom: 40px;
+}
+
+#list-category .post-title{
+	margin-bottom: 10px;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 400;
+}
+#list-category .post-desc{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+}
+.date-time {
+	font-size: 12px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.post-cover,.post-feature{
+	width: 488px;
+	padding-right: 15px;
+}
+.post-cover .post-thumb{
+	margin-bottom: 30px;
+	display: block;
+}
+.post-title{
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 33px;
+	color: #333;
+	margin-bottom: 25px;
+	display: block;
+}
+.list-post-cover,.list-post-feature {
+	width: 308px;
+	padding-left: 15px;
+}
+.list-post-cover .post-title,.list-post-feature .post-title,.witget-content .post-title{
+	font-weight: 500;
+	font-size: 14px;
+	color: #333;
+	line-height: 20px;
+}
+.post-desc{
+	font-weight: 400;
+	line-height: 27px;
+	font-size: 15px;
+}
+.list-post li {
+	margin-bottom: 20px;
+}
+.list-post .post-thumb{
+	margin-right:15px;
+
+}
+#list-lasted {
+	margin-bottom: 45px;
+}
+#list-lasted a:hover,.witget-content a:hover{
+	color: #008643;
+	transition: 0.25 all;
+}
+/*style list-category*/
+.witget-title{
+	background-color:#008643;
+	display: inline-block;
+
+}
+.witget-title a{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	padding: 13px 25px 12px 25px;
+	color: #fff; 
+}
+.witget-content{
+	padding: 25px 0px;
+	border-top: 1px solid #008643;
+}
+
+.post-feature .post-title {
+	font-weight: 700;
+	line-height: 22px;
+	font-size: 16px;
+	color: #333;
+}
+.post-feature .post-thumb{
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+#sidebar{
+	width: 337px;
+	padding-left: 30px;
+}
+#sidebar .witget-title{
+	background-color: #fff;
+}
+#sidebar .witget-title a{
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	text-transform: uppercase;
+	display: block;
+	padding: 0px 0px 20px 0px;
+	color: #333;
+	
+}
+.ads{
+	margin-bottom: 50px;
+	display: block;
+}
+/*style footer*/
+#footer{
+    background: #01a050;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-top: 42px;
+    min-height: 344px;
+}
+#footer .witget-title{
+    font-size: 21px;
+    line-height: 21px;
+    background-color: #01a050;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+#footer .witget-about{
+    width: 293px;
+    padding-right: 40px;
+}
+#footer .witget-about .witget-detail{
+    font-size:15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+#footer .witget-about .witget-detail .text-detail{
+    margin-bottom: 22px;
+}
+#footer .witget-about .witget-detail .mail{
+    margin-bottom: 20px;
+}
+#footer .witget-about .witget-detail p.mail:before{
+    font-family: FontAwesome;
+    content: "\f003";
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 15px;
+}
+p.hotline:before{
+    font-family: FontAwesome;
+    content: "\f095";
+    font-size: 16px;
+    margin-right: 15px;
+    color: #ffffff;
+}
+#footer .category{
+    width: 195px;
+    /* display: inline-block; */
+}
+#footer .category{
+    padding-left: 32px;
+}
+#footer .category ul.list-category li{
+    margin-bottom: 18px;
+    position: relative;
+    padding-left: 17px;
+}
+#footer .category ul.list-category li a{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+}
+#footer .category ul.list-category li a:before{
+    font-family: FontAwesome;
+    content: "\f105";
+    font-size: 15px;
+    color: #ffffff;
+    position: absolute;
+    left: 0;
+}
+#footer .category ul.list-category li a:hover{
+    color: #00ff1e;
+    transition: all 0.25s;
+}
+/* style highlight */
+#footer .highlight{
+    width: 390px;
+    /* display: inline-block; */
+    padding:0px 15px 0px 64px;
+}
+#footer .highlight ul.list-highlight li{
+    margin-bottom: 18px;
+    display: block;
+    position: relative;
+    padding-left: 17px;
+}
+#footer .highlight ul.list-highlight li a:before{
+    font-family: FontAwesome;
+    content: "\f105";
+    font-size: 15px;
+    color: #ffffff;
+    margin-right: 11px;
+    position: absolute;
+    left: 0;
+}
+#footer .highlight ul.list-highlight li a:hover{
+    color: #00ff1e;
+    transition: all 0.25s;
+}
+#footer .highlight ul.list-highlight li a{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+/* style fanpage */
+#footer .fanpage{
+    width: 292px;
+    padding-left: 15px;
+}
+/* style copyright */
+#copyright{
+    background: #ffffff;
+}
+#copyright p{
+    font-size: 14px;
+    font-weight: 500;
+    padding:15px 0px;
+}
+
